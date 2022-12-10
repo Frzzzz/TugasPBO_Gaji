@@ -66,7 +66,7 @@ public class Pegawai {
 
         this.gaji = gaji;
     }
-    int jenis,jabatan,golongan, tunjangan, gapok, totgapok;
+    int nip, nidn, nama, gaji, golongan, jenis,jabatan,gol, tunjangan, gapok, totgapok;
     public void Inputan() {
 
         Scanner duit = new Scanner(System.in);
@@ -170,4 +170,5 @@ public class Pegawai {
         System.out.println("Golongan Anda : " + golongan);
         System.out.println("Total Gaji Pokok  Anda : " + totgapok);
     }
+
 }
